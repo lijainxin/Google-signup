@@ -1,0 +1,97 @@
+@charset "utf-8";
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+    overflow: hidden;
+    background: #EFEFEF;
+    height: 40px;
+    width: 100%
+}
+.header .header_left{
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 120px;
+    float: left;
+    text-indent: -9999px;
+    background: url(../image/googlelogo.png) no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+}
+.header .header_right{
+    text-align: center;
+    float: right;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+    height: 30px;
+    width: 60px;
+    background: #4B8DF8;
+    margin-top: 5px;
+    border-radius: 5px
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main>h1{
+    font-family: "宋体";
+    text-align: center;
+    margin: 20px 0;
+    color: #555555;
+    font-weight: 100;
+}
+.signImg{
+    float: left;
+}
+.signInfo{
+    float: right;
+    width: 400px;
+    margin-top: 20px;
+    background: #F1F1F1;
+    padding-bottom: 10px;
+    border-radius:5px 
+}
+
+.signInfo legend{
+    font-weight:bold; 
+}
+.signInfo fieldset{
+    border: none
+}
+.element_button{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.element_button button{
+    background: #4B8DF8;
+    padding: 5px 15px;
+    border: none;
+    margin-right: 5px;
+    border-radius: 5px;
+    float: right;
+    outline:none
+}
+.element_pw input{
+    width: 100%;
+    outline:none
+}
+.element_confirmPw input{
+    width: 100%;
+    outline:none
+}
+.element_name input{
+    width:48%;
+    outline:none
+}
+.element_region select{
+    width: 100%;
+    outline:none
+}
+.element_birthday select{
+    outline:none
+}
